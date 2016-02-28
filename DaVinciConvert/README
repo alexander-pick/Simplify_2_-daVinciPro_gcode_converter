@@ -2,6 +2,22 @@
 
 The most interesting magic is within the template.txt (including the sepcial M Commands).
 
+Quick usage guide:
+- in Simplify3d do:
+	- load project
+	- make your settings
+	- go Tools->Firmware Config and laod Dummy.frm config
+	- select "Prepare to Print!"
+	- Save Toolpaths to Disk
+
+- in my Tool
+	- make your settings
+	- open the gCode File and convert
+
+Now send the file to the printer using XYZWare.
+
+Happy printing!
+
 Hint: For the machine settings use the dummy.frm file delivered with this project to make your convertable gcode. Have fun!
 
 -> Alexander Pick - 26.2.2016
