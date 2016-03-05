@@ -23,7 +23,7 @@ namespace DaVinciConvert
 
             try
             {
-                headerBox.Text = File.ReadAllText(@".\header.txt");
+                headerBox.Text = File.ReadAllText(@".\template.txt");
             }
             catch (IOException)
             {
